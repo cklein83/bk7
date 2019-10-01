@@ -13,7 +13,7 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-	line-height: 20px;
+	/*line-height: 20px;*/
 	margin: 0;
 	color: #121d1f;
 	font-weight: 400;
@@ -36,6 +36,11 @@ p.intro {
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+p {
+	padding: 10px;
+}
+
 a {
 	color: #333;
 }
@@ -185,11 +190,11 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	padding: 25px 0 5px 0;
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 	background: #f6f6f6;
 }
 #about .about-text {
@@ -205,15 +210,35 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
+#about h2 {
+	color: #000;
+	margin: 0.5em;
+	text-align: center;
+}
+
+#about h3 {
+	color: #000;
+	margin: 1em;
+	text-align: center;
+}
+
+#about li {
+	text-align: left;
+	margin: 15px;
+}
+
+
 /* Skills Section */
 #skills {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 	background: #7bc3d1;
 	color: #fff;
 }
 
 #skills {
 	text-align: left;
+	padding-bottom: 100px;
 }
 
 
@@ -274,6 +299,16 @@ hr {
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
+
+#portfolio h3 {
+	color: #000;
+}
+
+#portfolio iframe {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -524,9 +559,14 @@ ol.type li a:hover {
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
 }
+
+
+
+
+
 /* Contact Section */
 #contact {
-	padding: 100px 0 40px 0;
+	/*padding: 100px 0 40px 0;*/
 	color: #121d1f;
 	background: #7bc3d1;
 }
@@ -542,11 +582,22 @@ ol.type li a:hover {
 	font-weight: 400;
 	color: #fff;
 }
+
+#contact p {
+	color: #fff;
+	/*padding: 30px;*/
+}
+
+#contact .widget {
+	/*padding: 30px;*/
+}
+
 #contact form {
 	padding: 30px 0;
 }
 #contact i.fa {
-	color: #121d1f;
+	/*color: #121d1f;*/
+	color: #fff;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -559,6 +610,8 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
+
+
 #contact .form-control {
 	display: block;
 	width: 100%;
