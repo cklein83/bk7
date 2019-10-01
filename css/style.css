@@ -99,8 +99,10 @@ hr {
 .navbar-custom {
 	margin-bottom: 0;
 	background-color: #121d1f;
+	/*
 	border-radius: 0px;
 	padding: 10px 0;
+	*/
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
@@ -201,7 +203,9 @@ hr {
 	margin-left: 10px;
 }
 #about img {
+	/*
 	border-radius: 50%;
+	*/
 	width: 200px;
 	height: 200px;
 	display: inline-block;
