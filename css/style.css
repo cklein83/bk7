@@ -309,8 +309,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #portfolio iframe {
+	/*
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
+	*/
 }
 
 .categories {
