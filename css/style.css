@@ -607,7 +607,7 @@ ol.type li a:hover {
 	margin-bottom: 10px;
 }
 #contact .text-danger {
-	color: #E87E04;
+	color: #aa0000;
 	text-align: left;
 }
 label {
@@ -691,6 +691,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+#contact form .phone {
+	display: none;
+}
+
+
 /* Footer Section*/
 #footer {
 	background: #121d1f;
